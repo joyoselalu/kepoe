@@ -1,7 +1,7 @@
 <?php
 include('dom.php');
 
-$url = $_POST[“url”];
+$url = $_GET[“url”];
 $html = file_get_html($url);
 
 
