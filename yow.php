@@ -63,7 +63,7 @@ $url = explode("?",$url);
 $url = $url['0']; 
 
 
-echo  " { url :" . $url . "}<br>";
+echo  "Hai hai uhuii<br> { url :" . $url . "}<br>";
 echo  " { title :" . $title . "}<br>";
 echo  " { price :" . $price. "}<br>";
  foreach($html->find('span[class="percent-num"]') as $a) {
